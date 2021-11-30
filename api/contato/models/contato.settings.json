@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contatoes",
+  "info": {
+    "name": "Contato"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contato_titulo": {
+      "type": "string"
+    },
+    "contato_texto": {
+      "type": "text"
+    }
+  }
+}
