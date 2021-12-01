@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "CARROSSEL",
+  "collectionName": "carrossel",
   "info": {
-    "name": "carrossel",
-    "description": ""
+    "name": "CARROSSEL"
   },
   "options": {
     "increments": true,
@@ -12,7 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "fotos": {
+    "titulo_fixo": {
+      "type": "string",
+      "required": true,
+      "default": "O que fazemos"
+    },
+    "galeria": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,11 +25,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "titulo_fixo": {
-      "type": "string",
-      "default": "O que fazemos",
-      "required": true
     }
   }
 }
