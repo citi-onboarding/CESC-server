@@ -2,39 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/contatoes",
+      "path": "/contato",
       "handler": "contato.find",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
-      "path": "/contatoes/count",
-      "handler": "contato.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/contatoes/:id",
-      "handler": "contato.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/contatoes",
-      "handler": "contato.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/contatoes/:id",
+      "path": "/contato",
       "handler": "contato.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/contatoes/:id",
+      "path": "/contato",
       "handler": "contato.delete",
       "config": {
         "policies": []

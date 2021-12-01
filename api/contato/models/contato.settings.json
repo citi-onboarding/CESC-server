@@ -1,8 +1,9 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "contatoes",
   "info": {
-    "name": "Contato"
+    "name": "Contato",
+    "description": ""
   },
   "options": {
     "increments": true,
