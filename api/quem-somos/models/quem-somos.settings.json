@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "quem_somos",
   "info": {
-    "name": "Quem somos"
+    "name": "Quem somos",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image1": {
+    "nossahistoriacard": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,7 +22,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "image2": {
+    "ondeestamoscard": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -31,7 +32,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "image3": {
+    "indicadorescard": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -41,13 +42,13 @@
       "required": false,
       "pluginOptions": {}
     },
-    "text1": {
+    "nossahistoriatext": {
       "type": "text"
     },
-    "text2": {
+    "ondeestamostext": {
       "type": "text"
     },
-    "text3": {
+    "indicadorestext": {
       "type": "text"
     }
   }
