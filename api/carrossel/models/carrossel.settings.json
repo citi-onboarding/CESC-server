@@ -28,8 +28,7 @@
       "pluginOptions": {}
     },
     "subtitle": {
-      "type": "text",
-      "required": false
+      "type": "text"
     }
   }
 }
