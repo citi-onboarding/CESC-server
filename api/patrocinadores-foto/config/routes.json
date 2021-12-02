@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/patrocinadores-fotos",
+      "handler": "patrocinadores-foto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patrocinadores-fotos/count",
+      "handler": "patrocinadores-foto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patrocinadores-fotos/:id",
+      "handler": "patrocinadores-foto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/patrocinadores-fotos",
+      "handler": "patrocinadores-foto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/patrocinadores-fotos/:id",
+      "handler": "patrocinadores-foto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/patrocinadores-fotos/:id",
+      "handler": "patrocinadores-foto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
