@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carrossel",
+  "info": {
+    "name": "CARROSSEL",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo_fixo": {
+      "type": "string",
+      "required": false,
+      "default": "O que fazemos"
+    },
+    "galeria": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
