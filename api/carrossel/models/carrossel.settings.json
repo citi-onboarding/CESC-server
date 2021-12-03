@@ -14,7 +14,7 @@
   "attributes": {
     "titulo_fixo": {
       "type": "string",
-      "required": true,
+      "required": false,
       "default": "O que fazemos"
     },
     "galeria": {
@@ -26,9 +26,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "subtitle": {
-      "type": "text"
     }
   }
 }
